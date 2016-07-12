@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; /*font-size: 100%;*/
+font: inherit; vertical-align: baseline; }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+/* CSS 1,2 & 3 and HTML5 reset stylesheet */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; margin: 0; padding: 0; color: #363636; }
+/* 重置所有元素的盒模型 */
+
+html, body { min-height: 100%; font-size: 20px; }
+
+@media only screen and (min-width: 320px) {
+html { font-size: 15.4px !important; }
+}
+
+@media only screen and (min-width: 414px) {
+html { font-size: 20px !important; }
+}
+
+@media only screen and (min-width: 480px) {
+html { font-size: 23.26px !important; }
+}
+
+@media only screen and (min-width: 540px) {
+html { font-size: 26.1px !important; }
+}
+
+@media only screen and (min-width: 641px) {
+html { font-size: 31px !important; }
+}
+
+@media only screen and (min-width: 720px) {
+html { font-size: 34.78px !important; }
+body{ background:#f00;}
+/*.body_css{ width:720px; margin:auto;*/}
+}
+/*  */
+
+/* 设置浏览器body的高度, 使背景图像和DIV的高度能正确显示. Also sets em and rem units to exactly 10px, making sizing easier */
+
+body, ul, ol, dl { margin: 0; }
+/* 设置body和列表元素的margin，使它们在所有的浏览器中都从相同的位置开始 */
+
+
+textarea { resize: vertical; }
+/* changes textarea resizing from "both" (UA default) to vertical only */
+
+/*  HTML5 CSS */
+article, aside, audio, footer, header, nav, section, video { display: block }
+/* 对于老的浏览器，如Firefox 3.6，由于不知道HTML5元素而将它们渲染为 display: inline 。这里不用管 date, figure和HTML5表单的input*/
+
+input[type="submit"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner {
+border : 0px;
+}
+/* 在Firefox浏览器中使用表单元素时，去除聚焦按钮的内边框效果 */
+
+input[type="search"] { -webkit-appearance: textfield; }
+input[type="submit"] { -webkit-appearance: none; }
+/* 去除Safari 或 Mobile Safari浏览器的HTML5搜索框和提交按钮的 OS X外观 */
+
+/* OPTIONAL - USEFUL LAYOUT CSS */
+.right { float: right; margin-left: 2em; clear: right; }
+.left { float: left; margin-right: 2em; clear: left; }
+/* class shortcuts to floating any content left or right, e.g. <img src="x.jpg" class=right … />. Remember that you can use multiple classes so long as you put spaces between the class names: <img src="x.jpg" class="right other class" … /> */
+
+table { border-collapse: collapse; color: #333333 }
+th { }
+td { padding: .5rem; border: 1px solid #333333; }
+/* cleans up presentation of tables; reverses color of table header cells */

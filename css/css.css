@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+/* CSS Document */
+.body_css{background:url(../images/01.jpg) no-repeat center center;background-size:cover;}
+.changebg{background:url(../images/02.jpg) no-repeat center center;background-size:cover;}
+.cm_logo{position:absolute;top:0.5rem;left:0.5rem;background:url(../images/cm_logo.png) no-repeat;background-size:100% 100%;width:4.85rem;height:1.55rem;}
+.content{width:100%; position:relative;margin-top:2.1rem; min-height:29.3rem;}
+
+/**/
+#liuliangM{margin-top:2.25rem;}
+#liuliang100M{margin-top:2.8rem;}
+#liuliang1G{margin-top:2.8rem;}
+
+/**/
+.content .index_title{ z-index:100; position:absolute;top:0rem; left:50%; margin-left:-9.625rem;width:19.25rem;height:8.29rem;background:url(../images/index_title.png) no-repeat;background-size:19.25rem 8.29rem;}
+.content .title02{position:relative;margin:auto;margin-top:2.1rem;width:15.1rem;height:5.65rem;background:url(../images/2/title_02.png) no-repeat;background-size:15.1rem 5.65rem;}
+.content .title03{margin:auto;margin-top:2.1rem;width:12.5rem;height:5.15rem;background:url(../images/2/title_03.png) no-repeat;background-size:100% 100%;}
+.content .title031{margin:auto;margin-top:2.1rem;width:9.9rem;height:5.15rem;background:url(../images/2/title_031.png) no-repeat;background-size:100% 100%;}
+.content .title02 .header{position:absolute;top:0.1rem;right:.1rem;background:#000000;width:3rem;height:3rem;border:#56100e .2rem solid;-moz-border-radius:.2rem;-webkit-border-radius:.2rem;border-radius:.2rem;}
+
+/**/
+.content .renwu{z-index:10;  position:absolute;top:6rem; left:50%; margin-left:-8.375rem;width:16.75rem;height:18.55rem;background:url(../images/body.gif) no-repeat;background-size:100% 100%;}
+.content .liuliang{z-index:100;margin:auto;margin-top:3.85rem;margin-bottom:3.4rem;width:13.6rem;height:13.1rem;background:url(../images/2/M.png) no-repeat;background-size:100% 100%;}
+.content .liuliang_100M{z-index:100;margin:auto;margin-top:3.85rem;margin-bottom:3.4rem;width:13.6rem;height:13.1rem;background:url(../images/2/100M.png) no-repeat;background-size:100% 100%;}
+.content .liuliang_1G{z-index:100;margin:auto;margin-top:3.85rem;margin-bottom:3.4rem;width:13.6rem;height:13.1rem;background:url(../images/2/1G.png) no-repeat;background-size:100% 100%;}
+.content .txt{width:90%;margin:0 auto;text-align:center;font-weight:bold;}
+.foot_btn{clear:both;margin:2.4rem auto 0.75rem auto;padding-left:0.75rem;}
+.content_btn{height:3.55rem;margin:auto;margin-bottom:2.4rem;padding-left:0.75rem;width:20.7rem;}
+
+/* 按钮样式1 ***************************************************************************/
+.btn_pai{display:block;margin:0 auto;margin-top:.5rem;width:11rem;height:4.3rem;background:#bc1524;border:#56100e 0.2rem solid;-moz-border-radius:1rem;-webkit-border-radius:1rem;border-radius:1rem;font-size:1rem;text-align:center;color:#FFFFFF;}
+.btn_pai span{display:block;width:100%;height:3.5rem;text-indent:-999999rem;border:#b30f1c 0.05rem solid;-moz-border-radius:0.8rem;-webkit-border-radius:0.8rem;border-radius:0.8rem;font-size:1rem;text-align:center;color:#FFFFFF;}
+.btn_pai span.pai{background:#ff3e5e url(../images/btn_pai.png) 1.3rem center no-repeat;background-size:8.65rem 2.65rem;}
+.btn_pai span.lingqu{background:#ff3e5e url(../images/2/lingqu.png) 2rem center no-repeat;background-size:8.05rem 2.65rem;}
+
+/* 按钮样式2 ***************************************************************************/
+.btn_pai2{display:block;float:left;width:8.8rem;height:3.55rem;background:#bc1524;border:#56100e 0.2rem solid;-moz-border-radius:1rem;-webkit-border-radius:1rem;border-radius:1rem;font-size:1rem;text-align:center;color:#FFFFFF;}
+.btn_pai2 span{display:block;width:100%;height:2.78rem;text-indent:-999999rem;border:#b30f1c 0.05rem solid;-moz-border-radius:0.8rem;-webkit-border-radius:0.8rem;border-radius:0.8rem;font-size:1rem;text-align:center;color:#FFFFFF;}
+
+/**/
+#pai{ position:absolute; bottom:0; left:50%; margin-left:-5.5rem;} 
+#paipai2,
+#paipai3{margin-right:1.4rem;}
+#paipaipai{position:absolute;top:9.4rem;left:50%;margin-left:-4.4rem;}
+#btn_ok{margin:0 auto;margin-left:1rem;}
+
+/**/
+#paipai2 span,
+#paipai3 span{background:#ff3e5e url(../images/2/lingqu2.png) .6rem center no-repeat;background-size:7.45rem 2.15rem;}
+#shiyong span,
+#shiyong2 span{background:#ff3e5e url(../images/2/shiyong.png) .6rem center no-repeat;background-size:7.45rem 2.15rem;}
+#paipaipai span{background:#ff3e5e url(../images/3/paipai.png) center center no-repeat;background-size:5.5rem 1.6rem;}
+#btn_ok span{background:#ff3e5e url(../images/3/05_07.png) center center no-repeat;background-size:3.8rem 1.6rem;}
+
+/* 活动说明按钮 ***************************************************************************/
+.btn_shuoming{display:block;width:5.4rem;height:2.15rem;background:#0064b9;border:#56100e 0.15rem solid;-moz-border-radius:.5rem;-webkit-border-radius:.5rem;border-radius:.5rem;font-size:1rem;}
+.btn_shuoming span{display:block;width:100%;height:1.7rem;background:#19a6ff url(../images/btn_shuoming.png) center center no-repeat;text-indent:-999999rem;background-size:70% auto;border:#005db0 0.05rem solid;-moz-border-radius:0.4rem;-webkit-border-radius:0.4rem;border-radius:0.4rem;font-size:1rem;}
+
+/* 弹出层 ***************************************************************************/
+.cd-popup{position:fixed;left:0;top:0;height:100%;width:100%;background-color:rgba(0,0,0,0.7);opacity:0;visibility:hidden;-webkit-transition:opacity 0.2s 0s,visibility 0s 0.3s;-moz-transition:opacity 0.2s 0s,visibility 0s 0.3s;transition:opacity 0.2s 0s,visibility 0s 0.3s;z-index:100000;}
+.cd-popup.is-visible{opacity:1;visibility:visible;-webkit-transition:opacity 0.2s 0s,visibility 0s 0s;-moz-transition:opacity 0.2s 0s,visibility 0s 0s;transition:opacity 0.2s 0s,visibility 0s 0s;}
+.cd-popup-container{position:relative;width:14.5rem;max-width:14.5rem;height:14.5rem;max-height:14.5rem;margin:auto;margin-top:35%;background:#ffe200;-moz-border-radius:.6rem;-webkit-border-radius:.6rem;border-radius:.6rem;  /* Force Hardware Acceleration in WebKit */-webkit-backface-visibility:hidden;-webkit-transition-property:-webkit-transform;-moz-transition-property:-moz-transform;transition-property:transform;-webkit-transition-duration:0.3s;-moz-transition-duration:0.3s;transition-duration:0.3s;}
+.cd-popup-container .open_content{}
+.pai_bg{position:absolute;width:14.5rem;height:10rem;top:2rem;right:1.5rem;background:url(../images/07_03.png) no-repeat;background-size:14.5rem 10rem;}
+.cd-popup-container .cd-popup-close{position:absolute;top:.5rem;right:.5rem;width:1.5rem;height:1.5rem;background:#ffe200 url(../images/3/close.png) center center no-repeat;background-size:1rem;text-indent:-9999rem;}
+@media only screen and (min-width:1170px){
+  .cd-popup-container{    /* margin: 8em auto;*/}
+}
+
+/* 弹出层内容 ***************************************************************************/
+#title_lg{position:absolute;width:12.35rem;height:3.3rem;margin:0 auto;left:50%;margin-left:-6.175rem;top:2.65rem;background:url(../images/3/04_07.png) center center no-repeat;background-size:12.35rem 3.3rem;}
+#title_hdgz{position:absolute;width:5.25rem;height:1.3rem;margin:0 auto;left:50%;margin-left:-2.9rem;top:1.65rem;background:url(../images/3/06_03.png) center center no-repeat;background-size:5.25rem 1.3rem;}
+#hd_txt{position:absolute;width:13rem;height:10rem;margin:0 auto;left:50%;margin-left:-6.5rem;top:3.5rem;text-indent:2em;line-height:1.4em;text-align:left;overflow:scroll;}
+
+/* 表单 */
+#form{width:11rem;display:block;margin:2.2rem auto;padding-top:1.8rem;}
+.form_item{margin-bottom:1rem;height:2.1rem;}
+.form_item .input_tel{width:10.9rem;height:2.1rem;background:#FFFFFF url(../images/3/tel.png) 1rem center no-repeat;-moz-border-radius:.6rem;-webkit-border-radius:.6rem;border-radius:.6rem;border-style:none;background-size:6.05rem 1.05rem;padding-left:1rem;font-size:1rem;}
+.form_item .input_yz{width:5.1rem;height:2.1rem;background:#FFFFFF url(../images/3/yanzheng.png) 1rem center no-repeat;-moz-border-radius:.6rem;-webkit-border-radius:.6rem;border-radius:.6rem;border-style:none;background-size:3.1rem 1.05rem;padding-left:1rem;float:left;font-size:1rem;float:left;}
+.form_item .nobg{background:#FFFFFF;}
+.form_item .input_tel:focus,
+.form_item .input_yz:focus{background:#FFFFFF;}
+#btn_yz{display:block;float:right;text-indent:-99999px;width:5.3rem;height:2.1rem;background:url(../images/3/05_07.jpg) no-repeat;background-size:5.3rem 2.1rem;}
+#btn_yz span{}
+.error_msg{text-align:left;font-size:0.7rem;line-height:0.8rem;margin-bottom:0.6rem;}
